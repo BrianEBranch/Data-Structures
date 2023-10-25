@@ -1,1 +1,1 @@
-# Simple cheatsheet containing all the _Data Structures_** implemented in _Java_.
+# All the *Data Structures* implemented in __Java__.
