@@ -8,5 +8,7 @@
 * **Fixed size**, typical arrays are fixed in size in Java.
 * Difficult to insert or delete data
 
+#### Typical Leetcode Patterns:
+* [Two pointers](https://www.geeksforgeeks.org/two-pointers-technique/)
+* [Sliding Window](https://www.geeksforgeeks.org/window-sliding-technique/)
 * **
-
