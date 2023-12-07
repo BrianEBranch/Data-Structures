@@ -17,3 +17,11 @@
 * **Complexity of implementation,** implementing linked lists can be more complex than using arrays.
 * **Difficult Reversal,** reversing a singly linked list is hard!
 * **
+
+### LinkedList methods & time complexity
+* **add(E element)**, O(1)
+* **add(int index, E element)**, O(n) (need to traverse to specified index)
+* **get(int index)**, O(n), (traverse to the specified index)
+* **remove(Object o), remove(int index)**, O(n)
+* **indexOf(Object o)**, O(n)
+* **contains(Object o)**, O(n)

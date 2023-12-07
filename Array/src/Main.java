@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,17 +14,11 @@ public class Main {
         }
         //Array of strings implementation
         System.out.println("\n");
-        String[] stringArray = new String[4];
+        String[] stringArray = {"this", "is", "an", "array"};
 
-        stringArray[0] = "This";
-        stringArray[1] = "is";
-        stringArray[2] = "an";
-        stringArray[3] = "array";
-        for(int i = 0; i < stringArray.length; i++){
-            System.out.print(stringArray[i] + " ");
+        for (String s : stringArray) {
+            System.out.print(s + " ");
         }
-
-
-
+        ArrayList<Integer> integerArrayList = new ArrayList<>();
     }
 }

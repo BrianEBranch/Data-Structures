@@ -1,7 +1,8 @@
 public class SimpleLinkedList<T>{
+
     /*
-    My own implementation of LinkedList class, methods to be added.
-     */
+        My own implementation of LinkedList class, methods to be added.
+         */
     public static void main(String[] args){
 
     }
@@ -63,4 +64,14 @@ public class SimpleLinkedList<T>{
         previousNode.next = new Node<>(newItem);
         previousNode.next.next = temp;
     }
+    //returns element at the specified position in this list
+    /* TODO
+    public T get(int index){
+        if(index > size || index < size){
+            System.out.println("Index out of bounds");
+            return;
+        }
+        return
+    }
+     */
 }
