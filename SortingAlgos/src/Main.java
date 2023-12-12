@@ -1,9 +1,8 @@
-import java.sql.SQLOutput;
 import java.util.Arrays;
-import java.util.Scanner;
 public class Main {
     private static int iterationCount = 0;
     public static void main(String[] args) {
+        //INSERTIONSORT
         /*
         JUST CHANGE NUMBERS!
 
@@ -12,6 +11,7 @@ public class Main {
 
         */
 
+        //MERGESORT
         /*
         CHANGE NUMBERS, IF YOU CHANGE ANYTHING ELSE CAN NOT GUARANTEE IT WILL PRINT LIKE YOU WANT.
 
@@ -24,6 +24,8 @@ public class Main {
         */
 
         /*
+        //QUICKSORT
+
         CHANGE NUMBERS, IF YOU CHANGE ANYTHING ELSE CAN NOT GUARANTEE IT WILL PRINT LIKE YOU WANT.
 
         int[] array = {12, 14, 15, 19, 2, 1, 6, 8, 5, 10};
@@ -33,6 +35,7 @@ public class Main {
         System.out.println("Sorted array: " + arrayToString(array, 0, array.length - 1));
          */
 
+        //HEAPSORT
         /*
         CHANGE NUMBERS, IF YOU CHANGE ANYTHING ELSE CAN NOT GUARANTEE IT WILL PRINT LIKE YOU WANT.
 
@@ -83,8 +86,8 @@ public class Main {
     }
     public static void quickSort(int[] array, int low, int high) {
         if (low < high) {
+            System.out.println("Array before partitioning: " + arrayToString(array, low, high));
             int pivotIndex = partition(array, low, high);
-
             System.out.println("Pivot: " + array[pivotIndex]);
             System.out.println("Array after partitioning: " + arrayToString(array, low, high));
             System.out.println("Array after placing pivot: " + arrayToString(array, low, high));
