@@ -85,6 +85,7 @@ public class SimpleLinkedList<T>{
         Node newNode = new Node(newItem);
         Node listHead = head;
         Node previous = null;
+        int currIndex = 0;
         if(index == size){
             while(listHead != null){
                 listHead = listHead.next;
@@ -96,7 +97,13 @@ public class SimpleLinkedList<T>{
             head = newNode;
         }
         while(listHead != null){
-
+            previous = listHead;
+            listHead = listHead.next;
+            if(currIndex == index){
+                previous.next = newNode;
+                newNode.next = listHead;
+            }
+            currIndex++;
         }
     }
     public Object get(int index){
