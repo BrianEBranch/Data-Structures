@@ -16,7 +16,6 @@
 * **Slower Random Access,** accessing elements in a linked list, especially singly linked list, is slower than in an array because you have to traverse throught the list to find an element resulting in O(n) time complexitiy.
 * **Complexity of implementation,** implementing linked lists can be more complex than using arrays.
 * **Difficult Reversal,** reversing a singly linked list is hard!
-* **
 
 ### LinkedList methods & time complexity
 * **add(E element)**, O(1)
