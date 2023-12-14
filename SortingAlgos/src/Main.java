@@ -3,13 +3,12 @@ public class Main {
     private static int iterationCount = 0;
     public static void main(String[] args) {
         //INSERTIONSORT
-        /*
-        JUST CHANGE NUMBERS!
 
+//        JUST CHANGE NUMBERS!
+        /*
         int[] array = {12, 14, 15, 19, 2, 1, 6};
         insertionSort(array);
-
-        */
+         */
 
         //MERGESORT
         /*
@@ -20,8 +19,9 @@ public class Main {
         System.out.println();
         mergeSort(array, 0, array.length - 1);
         System.out.println("Sorted Array: " + arrayToString(array, 0, array.length - 1));
+        
+         */
 
-        */
 
         /*
         //QUICKSORT
